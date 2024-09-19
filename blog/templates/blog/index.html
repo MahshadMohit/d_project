@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    My blog
+{% endblock %}
+
+{% block content %}
+    <header id="main-navigation">
+        <h1>
+            <a href="">My blog</a>
+        </h1>
+        <nav>
+            <a href="">All posts</a>
+        </nav>
+    
+    </header>
+    <section id="welcome">
+    <header>
+        <img src="blog/templates/my page.jpg" alt="Mahshad">
+        <h2>Mahshad Page project</h2>
+    </header>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate enim expedita facilis incidunt, laudantium molestias mollitia nostrum nulla numquam pariatur, placeat quam quasi quis similique ut? Atque sed soluta voluptatibus?</p>
+    
+    </section>
+    <section id="latest-posts">
+    <h2>latest posts</h2>
+        <ul>
+            <li>
+                <article class="post">
+                    <a href="">
+                        <img src="" alt="learning">
+                        <div class="post_content">
+                            <h3>learning django</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut culpa deleniti dolore ducimus eius explicabo facilis nesciunt, quia sint veniam. Dolore dolores et fuga illo iure necessitatibus pariatur quas totam!</p>
+                        </div>
+                    </a>
+                </article>
+            </li>
+
+        </ul>
+    </section>
+    <section id="about">
+    <h2>What i do</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aperiam beatae hic iste iure quas, quasi quis. Debitis dicta enim ex exercitationem id, ipsam iste necessitatibus nesciunt odio unde. Ut!</p>
+    </section>
+{% endblock %}
