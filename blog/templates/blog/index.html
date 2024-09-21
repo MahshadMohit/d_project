@@ -24,10 +24,13 @@
     <section id="latest_posts">
         <h2>latest Posts</h2>
         <ul>
-            {% include 'blog/includes/post.html' %}
-            {% include 'blog/includes/post.html' %}
-            {% include 'blog/includes/post.html' %}
-            {% include 'blog/includes/post.html' %}
+            {% for post in latest_post %}
+                <p>{{ post.title }}</p>
+                {% include 'blog/includes/post.html' %}
+            {% endfor %}
+
+
+
         </ul>
     </section>
     <section id="about">
