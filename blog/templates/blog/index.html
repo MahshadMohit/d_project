@@ -9,9 +9,7 @@
 
 {% block content %}
 
-    <header id="main_navigation">
-        <h1><a href="">Asoo Blog</a></h1>
-    </header>
+
     <nav>
         <a href="">All Posts</a>
     </nav>
@@ -28,58 +26,10 @@
     <section id="latest_posts">
         <h2>latest Posts</h2>
         <ul>
-            <li>
-                <article class="post">
-                    <a href="">
-                        <img src="{% static 'blog/images/python.png' %}" alt="django">
-                        <div class="post">
-                            <h3>blog</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti impedit perferendis
-                                perspiciatis. Amet consequatur explicabo fugiat ipsum quisquam voluptatibus. Adipisci
-                                asperiores assumenda dolore nostrum placeat vero vitae! Aut, ex sint.</p>
-                        </div>
-                    </a>
-                </article>
-            </li>
-            <li>
-                <article class="post">
-                    <a href="">
-                        <img src="{% static 'blog/images/python.png' %}" alt="django">
-                        <div class="post">
-                            <h3>blog</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti impedit perferendis
-                                perspiciatis. Amet consequatur explicabo fugiat ipsum quisquam voluptatibus. Adipisci
-                                asperiores assumenda dolore nostrum placeat vero vitae! Aut, ex sint.</p>
-                        </div>
-                    </a>
-                </article>
-            </li>
-            <li>
-                <article class="post">
-                    <a href="">
-                        <img src="{% static 'blog/images/python.png' %}" alt="django">
-                        <div class="post">
-                            <h3>blog</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti impedit perferendis
-                                perspiciatis. Amet consequatur explicabo fugiat ipsum quisquam voluptatibus. Adipisci
-                                asperiores assumenda dolore nostrum placeat vero vitae! Aut, ex sint.</p>
-                        </div>
-                    </a>
-                </article>
-            </li>
-            <li>
-                <article class="post">
-                    <a href="">
-                        <img src="{% static 'blog/images/python.png' %}" alt="django">
-                        <div class="post">
-                            <h3>blog</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti impedit perferendis
-                                perspiciatis. Amet consequatur explicabo fugiat ipsum quisquam voluptatibus. Adipisci
-                                asperiores assumenda dolore nostrum placeat vero vitae! Aut, ex sint.</p>
-                        </div>
-                    </a>
-                </article>
-            </li>
+            {% include 'blog/includes/post.html' %}
+            {% include 'blog/includes/post.html' %}
+            {% include 'blog/includes/post.html' %}
+            {% include 'blog/includes/post.html' %}
         </ul>
     </section>
     <section id="about">
