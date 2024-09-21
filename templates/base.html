@@ -4,14 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{% static 'app.css' %}">
+
     <title>
         {% block title %}{% endblock %}
     </title>
     {% block header_refrence %}{% endblock %}
 </head>
 <body>
-<header id="main_navigation">
-        <h1><a href="">Asoo Blog</a></h1>
+    <header id="main-navigation">
+    <h1><a href="{% url 'starting-post' %}">Asoo Blog</a></h1>
+    <nav>
+        <a href="{% url 'posts-page' %}">All Posts</a>
+    </nav>
     </header>
 {% block content %}{% endblock %}
 {% block footer_refrences %}{% endblock %}
