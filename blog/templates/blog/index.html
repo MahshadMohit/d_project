@@ -1,0 +1,95 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block header_refrence %}
+    <link rel="stylesheet" href="{% static 'blog/index.css' %}">
+{% endblock %}
+{% block title %}
+    My blog
+{% endblock %}
+
+{% block content %}
+
+    <header id="main_navigation">
+        <h1><a href="">Asoo Blog</a></h1>
+    </header>
+    <nav>
+        <a href="">All Posts</a>
+    </nav>
+
+    <section id="welcome">
+        <header>
+            <img src="{% static 'blog/images/master.jpg' %}" alt="Asoo">
+            <h2>salam man Asoo hastam</h2>
+        </header>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At autem cumque eum id impedit libero minima odit
+            quae quos ratione, repellendus temporibus ullam, voluptatum! Maiores, numquam quod? Iusto, obcaecati,
+            reiciendis!</p>
+    </section>
+    <section id="latest_posts">
+        <h2>latest Posts</h2>
+        <ul>
+            <li>
+                <article class="post">
+                    <a href="">
+                        <img src="{% static 'blog/images/python.png' %}" alt="django">
+                        <div class="post">
+                            <h3>blog</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti impedit perferendis
+                                perspiciatis. Amet consequatur explicabo fugiat ipsum quisquam voluptatibus. Adipisci
+                                asperiores assumenda dolore nostrum placeat vero vitae! Aut, ex sint.</p>
+                        </div>
+                    </a>
+                </article>
+            </li>
+            <li>
+                <article class="post">
+                    <a href="">
+                        <img src="{% static 'blog/images/python.png' %}" alt="django">
+                        <div class="post">
+                            <h3>blog</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti impedit perferendis
+                                perspiciatis. Amet consequatur explicabo fugiat ipsum quisquam voluptatibus. Adipisci
+                                asperiores assumenda dolore nostrum placeat vero vitae! Aut, ex sint.</p>
+                        </div>
+                    </a>
+                </article>
+            </li>
+            <li>
+                <article class="post">
+                    <a href="">
+                        <img src="{% static 'blog/images/python.png' %}" alt="django">
+                        <div class="post">
+                            <h3>blog</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti impedit perferendis
+                                perspiciatis. Amet consequatur explicabo fugiat ipsum quisquam voluptatibus. Adipisci
+                                asperiores assumenda dolore nostrum placeat vero vitae! Aut, ex sint.</p>
+                        </div>
+                    </a>
+                </article>
+            </li>
+            <li>
+                <article class="post">
+                    <a href="">
+                        <img src="{% static 'blog/images/python.png' %}" alt="django">
+                        <div class="post">
+                            <h3>blog</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti impedit perferendis
+                                perspiciatis. Amet consequatur explicabo fugiat ipsum quisquam voluptatibus. Adipisci
+                                asperiores assumenda dolore nostrum placeat vero vitae! Aut, ex sint.</p>
+                        </div>
+                    </a>
+                </article>
+            </li>
+        </ul>
+    </section>
+    <section id="about">
+        <h2>what do i do</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias deleniti dolore et eum fuga, labore nulla
+            numquam quam unde veritatis. Animi non quas reiciendis vero voluptatem! Autem enim omnis saepe.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque cumque cupiditate dolorum ducimus ea
+            est et incidunt libero magnam molestiae molestias nulla, officiis recusandae rem unde vero? Ad aperiam
+            asperiores beatae blanditiis, consequatur consequuntur cumque distinctio et eum ex, fuga fugiat illum,
+            incidunt iusto magnam modi nemo numquam officia placeat provident quaerat quas ratione repellat sint tempora
+            vel vitae.</p>
+    </section>
+{% endblock %}

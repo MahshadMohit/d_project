@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'app.css' %}">
+    <title>
+        {% block title %}{% endblock %}
+    </title>
+    {% block header_refrence %}{% endblock %}
+</head>
+<body>
+{% block content %}{% endblock %}
+{% block footer_refrences %}{% endblock %}
+</body>
+</html>
