@@ -1,5 +1,4 @@
-<img src = "![image](https://github.com/user-attachments/assets/507687c7-cd99-4863-8865-8ee4ada5978d)
-" alt = "django" width = "50" height = "50">
+<img src = "https://images.app.goo.gl/A5muWhZi67q2pZGS6" alt = "django" width = "50" height = "50">
 
 <h3>very first Django project</h3>
 <hr>
