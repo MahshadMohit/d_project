@@ -1,7 +1,7 @@
 {% load static %}
 <li>
                 <article class="post">
-                    <a href="{% url 'post-detail-page' slug='learning-django' %}">
+                    <a href="{% url 'post-detail-page' slug=post.slug %}">
                         <img src="{% static 'blog/images/'|add:post.image %}" alt="django">
                         <div class="post-content">
                             <h3>{{ post.title }}</h3>

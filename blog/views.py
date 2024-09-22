@@ -5,10 +5,10 @@ from datetime import date
 
 all_posts = [
     {
-        'slug': 'learning django',
+        'slug': 'learning-django',
         'title': 'DJANGO',
         'author': 'Asoo',
-        'image': 'python.img',
+        'image': 'python.png',
         'date': date(2021, 4, 5),
         'abstract': 'This is DJANGO',
         'content': """
@@ -21,10 +21,10 @@ all_posts = [
     },
 
     {
-        'slug': 'learning cakes',
+        'slug': 'learning-cakes',
         'title': 'cakes',
         'author': 'Mahshid',
-        'image': 'images.img',
+        'image': 'images.png',
         'date': date(2022, 3, 6),
         'abstract': 'This is cake',
         'content': """
@@ -36,10 +36,10 @@ all_posts = [
         """
 
     }, {
-        'slug': 'learning master',
+        'slug': 'learning-master',
         'title': 'MASTER',
         'author': 'Marmar',
-        'image': 'master.img',
+        'image': 'master.jpg',
         'date': date(2021, 3, 5),
         'abstract': 'This is master',
         'content': """
@@ -51,10 +51,10 @@ all_posts = [
         """
 
     }, {
-        'slug': 'learning ml',
+        'slug': 'learning-ml',
         'title': 'ML',
         'author': 'Azar',
-        'image': 'ml.img',
+        'image': 'ml.png',
         'date': date(2021, 4, 3),
         'abstract': 'This is ML',
         'content': """
